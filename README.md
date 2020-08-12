@@ -1,1 +1,1 @@
-# Sette_e_mezzo-Java
+# Sette_e_mezzo
