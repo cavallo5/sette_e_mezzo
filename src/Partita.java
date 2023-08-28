@@ -1,8 +1,4 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package jsetteemezzo;
+package src;
 
 import java.util.Scanner;
 
@@ -195,14 +191,13 @@ public class Partita {
 
                     valoreinmano = this.valoreinmano(a);
                     if (valoreinmano > 7.5) {
-                        System.out.println("Hai perso bastardo, hai fatto il botto, boom con " + valoreinmano + "");
+                        System.out.println("Hai perso, hai fatto il botto, boom con " + valoreinmano + "");
                         valoreinmano = 0;
                         y = true;
                     } else {
                         if (valoreinmano == 7.5) {
                             y=true;
-                            System.out.println("certo che non ti basta la fontana di trevi per pulirti il culo");
-                            System.out.println("HAI PIU' CULO CHE SALUTE!!!");
+                            System.out.println("Che fortuna, 7.5");
                         } else {
                             System.out.println("Hai " + valoreinmano + "");
                             System.out.println("Vuoi un'altra carta?   Premere si/no");
